@@ -1,0 +1,18 @@
+print "Enter your first number: "
+num1 = gets.chomp.to_i
+print "Enter a operator: "
+op = gets.chomp
+print "Enter a secound number: "
+num2 = gets.chomp.to_i
+
+if op == "+"
+  puts (num1 + num2)
+elsif op == "-"
+  puts(num1 - num2)
+elsif op == "/"
+  puts(num1 / num2)
+elsif op == "*"
+  puts(num1 * num2)
+else
+  puts("Sorry invailed operator!")
+end
