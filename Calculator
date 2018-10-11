@@ -1,12 +1,12 @@
-print "Enter your first number: "
+#Ruby Code Only
+print "Änge ditt första nummer: "
 num1 = gets.chomp.to_i
 print "Enter a operator: "
 op = gets.chomp
-print "Enter a secound number: "
+print "Änge ett andra nummer: "
 num2 = gets.chomp.to_i
-
 if op == "+"
-  puts (num1 + num2)
+  puts(num1 + num2)
 elsif op == "-"
   puts(num1 - num2)
 elsif op == "/"
