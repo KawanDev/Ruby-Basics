@@ -1,9 +1,9 @@
 #Ruby Code Only
-print "Änge ditt första nummer: "
+print "Your first number here: "
 num1 = gets.chomp.to_i
 print "Enter a operator: "
 op = gets.chomp
-print "Änge ett andra nummer: "
+print "Your second number here: "
 num2 = gets.chomp.to_i
 if op == "+"
   puts(num1 + num2)
